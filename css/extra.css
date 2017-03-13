@@ -1,0 +1,309 @@
+body{
+	color:#DDDDDD;
+	background-image:url("../img/Background.png");
+	background-color:#000000;
+	background-attachment:fixed;
+	background-size:50vw 100vh;
+	background-repeat:no-repeat;
+	background-position:right;
+	font-family:'ubuntu';
+	font-weight:bold;
+	margin:0px;
+
+}
+@media screen and (max-width: 540px){
+.mobile-hide{
+	display:none;
+}
+}
+
+@media screen and (min-width: 500px){
+.desktop-hide{
+	display:none;
+}
+
+}
+/*************************************MOBILE*****************************************/
+
+h2{
+	display:none;
+}
+
+
+
+
+	/***************************HEADER*******************************/
+
+.nav_bg{
+	background:black;
+}
+
+.mobile_app_col{
+	display:inline;
+}
+
+header{
+	color:white;
+	background:rgba(0,0,0,0.8);
+}
+.NavBarLogo{
+	height:80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 500px){
+.NavBarLogo{
+	height:50px;
+	transform:translate(0,40%);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+.title{
+	position:relative;
+
+}
+
+}
+.center{
+	text-align:center;
+}
+
+.left{
+	text-align:left;
+}
+
+.right{
+	text-align:right;
+}
+@font-face {
+  font-family: 'earth';
+    src: url('../font/earthorbiter.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'ubuntu';
+    src: url('../font/Ubuntu-B.ttf')format('truetype');
+}
+
+.area{
+	border-radius:20px;
+	padding:4px;
+	padding-left:5px;
+	padding-right:10px;
+	text-align:center;
+	position:relative;
+	top:25px;
+	display:inline;
+}
+
+@media screen and (max-width: 480px){
+.area{
+	border-radius:20px;
+	padding:4px;
+	padding-left:5px;
+	padding-right:10px;
+	text-align:center;
+	position:relative;
+	top:10px;
+	display:inline;
+}
+
+}
+
+/****************************************Application section 4*********************/
+
+#font_para{
+	color:white;
+	font-size:25px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:20px;
+	text-shadow:1px 1px 1px black;
+}
+
+@media screen and (max-width: 540px){
+#font_para{
+	color:white;
+	font-size:14px;
+	padding:20px;
+	padding-left:15px;
+	margin:5px;
+	text-shadow:1px 1px 1px black;
+	
+}
+}
+/*************************************End of HEADER******************************/
+.hida{
+
+}
+.inline{
+	display:inline;
+}
+
+.font_intro{
+	
+}
+.cardi_height{
+	
+}
+@media screen and (min-width: 1700px){
+.font_intro{
+	font-size:22px;
+}
+.font_intro1{
+	font-size:24px;
+}
+}
+
+#quotes{
+	height:40vh;
+}
+.sec11{
+	margin-top:150px;	
+	height:80vh;
+	padding-top:30px;
+	background-image: url("../img/nbg1.png");
+	background-size: 100% 100%;
+}
+
+@media screen and (min-width: 1700px){
+.sec11{
+	margin-top:150px;
+	height:75vh;
+	
+	padding-top:30px;
+	background-image: url("../img/nbg1.png");
+	background-size: 100% 100%;
+}
+}
+@media screen and (max-width: 540px){
+.para_height{
+	height:200px; !important
+}
+.mobo{
+	transform:translate(0,-30%);
+	width:100%;
+}
+.para_width{
+	width:100%;
+}
+}
+/***********************************LIMITMESS SECTION*******************************/
+#limitless{
+	color:#999999;
+	font-size:30px;
+	font-family:earth;
+}
+
+.inf_temp{
+	width:90vw;
+}
+@media screen and (max-width: 500px){
+.inf_temp{
+	height:200px;
+}
+}
+/**************************************Services*************************************/
+@media screen and (min-width: 540px){
+.responsive_img{
+	height:180px;
+	width:400px;
+	margin:50px;
+}
+}
+@media screen and (min-width: 540px){
+.cms{
+	height:200px;
+	width:350px;
+	margin:40px;
+	
+}
+}
+#map{
+	border:10px solid #888888;
+	padding:0px;
+	border-radius:10px;
+	margin-top:100px;
+}
+footer{
+	margin-top:50px;
+	background-size: 100% 100%;
+	background-image:url("../img/Footer.png");
+
+
+}
+
+.contactus{
+	background:black;
+	border:2px dotted red;
+	border-radius:15px;
+	opacity:0.8;
+	padding:20px;
+	margin-bottom:60px;
+}
+.pad_bot_9{
+	padding-bottom:9px;
+}
+
+h3{
+	font-size:25px;
+
+}
+h4{
+	font-size:20px;
+
+}
+h2{
+	font-size:30px;
+
+}
+#section1{
+
+
+}
+.mygrey{
+		background:rgba(1,1,1,0.7);
+
+}
+#map{
+
+}
+
+.name{
+	color:white;
+}
+
+.stab{
+	color:white;
+}
+
+.cardi-title{
+	font-size:18px;
+}
+/******************************software********************************/
+#soft_para_text{
+	color:white;
+	font-size:30px;
+	padding:50px;
+}
+@media screen and (max-width: 540px){
+#soft_para_text{
+	color:white;
+	font-size:14px;
+	padding:5px;
+}
+
+/******************************WeCanProvide********************************/
+.pad50{
+	padding:50px;
+}
+@media screen and (max-width: 540px){
+.pad50{
+	padding:10px;
+}
